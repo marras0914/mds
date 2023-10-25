@@ -17,7 +17,6 @@
 import React, { FC, SVGProps } from "react";
 import LogoBase from "../LogoBase/LogoBase";
 import { LogoBaseProps } from "../LogoBase/LogoBase.types";
-// import TitanLogo from "titan.svg";
 
 const TitanCS: FC<SVGProps<any> & LogoBaseProps> = ({ inverse, onClick }) => {
   return (
