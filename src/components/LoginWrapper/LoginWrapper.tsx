@@ -114,7 +114,7 @@ const CustomLogin = styled.div(({ theme }) => {
       [`@media (min-width: ${get(
         breakPoints,
         "xs",
-        0,
+        0
       )}px) and (max-width: ${get(breakPoints, "md", 0)}px)`]: {
         maxWidth: "100%",
       },
@@ -123,10 +123,11 @@ const CustomLogin = styled.div(({ theme }) => {
         height: "215px",
         alignItems: "center",
         justifyContent: "center",
-        boxShadow: "0 3px 10px 2px #00000010",
+        // boxShadow: "0 3px 10px 2px #00000010",
         "& svg": {
           width: "325px",
         },
+        backgroundColor: "#f0f0f9",
       },
       "& .formContainer": {
         paddingTop: "40px",
@@ -134,6 +135,7 @@ const CustomLogin = styled.div(({ theme }) => {
         flexDirection: "column",
         alignItems: "center",
         minHeight: "calc(100vh - 215px)",
+        backgroundColor: "#f0f0f9",
         "& .form": {
           width: "328px",
           flexGrow: "1",
@@ -145,7 +147,7 @@ const CustomLogin = styled.div(({ theme }) => {
           borderTop: `${get(
             theme,
             "login.footerDivider",
-            "#f2f2f2",
+            "#f2f2f2"
           )} 1px solid`,
           padding: "35px 0",
           textAlign: "center",
