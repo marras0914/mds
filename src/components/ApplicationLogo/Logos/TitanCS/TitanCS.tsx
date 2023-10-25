@@ -20,7 +20,7 @@ import { LogoBaseProps } from "../LogoBase/LogoBase.types";
 
 const TitanCS: FC<SVGProps<any> & LogoBaseProps> = ({ inverse, onClick }) => {
   return (
-    <LogoBase viewBox="0 0 184.45 55" inverse={inverse} onClick={onClick}>
+    <LogoBase viewBox="0 0 1700 332" inverse={inverse} onClick={onClick}>
       <g>
         <g>
           <g>
