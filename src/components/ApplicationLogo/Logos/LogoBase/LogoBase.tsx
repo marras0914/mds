@@ -33,6 +33,17 @@ const LogoBase = styled.svg<SVGProps<any> & LogoBaseProps>((props) => {
     "& .minioApplicationName": {
       fill: mainColor,
     },
+    "& .st0": { fill: "#51BE9B" },
+    "& .st1": { fill: "#FFFFFF" },
+    "& .st2": { fill: "url(#SVGID_1_)" },
+    "& .st3": { fill: "url(#SVGID_2_)" },
+    "& .st4": { fill: "url(#SVGID_3_)" },
+    "& .st5": { fill: "#7A60A6" },
+    "& .st6": { fill: "url(#SVGID_4_)" },
+    "& .st7": { fill: "url(#SVGID_5_)" },
+    "& .st8": { fill: "url(#SVGID_6_)" },
+    "& .st9": { fill: "url(#SVGID_7_)" },
+    "& .st10": { fill: "url(#SVGID_8_)" },
   };
 });
 
