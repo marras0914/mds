@@ -16,7 +16,8 @@
 
 import * as React from "react";
 import { SVGProps } from "react";
-const titanShield = require("../../assets/titanShield.png"); // "./titanShield.png";
+const titanShield = require("../assets/titanShield.png");
+// const titanShield = require("../../assets/titanShield.png"); // "./titanShield.png";
 
 const MenuCollapsedIcon = (props: SVGProps<SVGSVGElement>) => (
   <img
