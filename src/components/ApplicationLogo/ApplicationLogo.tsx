@@ -37,6 +37,7 @@ import Cache from "./Logos/Cache/Cache";
 import Monitor from "./Logos/Monitor/Monitor";
 import Observe from "./Logos/Observe/Observe";
 import MissionControl from "./Logos/MissionControl/MissionControl";
+import TitanCS from "./Logos/TitanCS/TitanCS";
 
 const ApplicationLogo: FC<ApplicationLogoProps> = ({
   applicationName,
@@ -97,6 +98,8 @@ const ApplicationLogo: FC<ApplicationLogoProps> = ({
       return <Observe inverse={!!inverse} onClick={onClick} />;
     case "missioncontrol":
       return <MissionControl inverse={!!inverse} onClick={onClick} />;
+    case "titan":
+      return <TitanCS inverse={!!inverse} onClick={onClick} />;
   }
 };
 

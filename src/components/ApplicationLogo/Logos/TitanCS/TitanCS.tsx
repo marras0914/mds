@@ -14,29 +14,17 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import React from "react";
+import React, { FC, SVGProps } from "react";
+import LogoBase from "../LogoBase/LogoBase";
+import { LogoBaseProps } from "../LogoBase/LogoBase.types";
+import TitanLogo from "titan.svg";
 
-export interface ApplicationLogoProps {
-  applicationName:
-    | "console"
-    | "operator"
-    | "directpv"
-    | "kes"
-    | "subnet"
-    | "subnetops"
-    | "cloud"
-    | "releases"
-    | "vmbroker"
-    | "eureka"
-    | "kms"
-    | "loadbalancer"
-    | "index"
-    | "cache"
-    | "monitor"
-    | "observe"
-    | "missioncontrol"
-    | "titan";
-  subVariant?: "simple" | "AGPL" | "standard" | "enterprise" | "new";
-  inverse?: boolean;
-  onClick?: React.MouseEventHandler<any> | undefined;
-}
+const TitanCS: FC<SVGProps<any> & LogoBaseProps> = ({ inverse, onClick }) => {
+  return (
+    <LogoBase viewBox="0 0 184.45 55" inverse={inverse} onClick={onClick}>
+      <TitanLogo />
+    </LogoBase>
+  );
+};
+
+export default TitanCS;
